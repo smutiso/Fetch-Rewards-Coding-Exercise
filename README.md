@@ -10,4 +10,4 @@
 
 In this repository I've answered all the questions on the Jupiter Notebook as well as including all the packages required to execute this project.
 # First: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
-Used MYSQL Workbench to creat the ER diagram.
+Used MYSQL Workbench to create the ER diagram.
