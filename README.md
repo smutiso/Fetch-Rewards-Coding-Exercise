@@ -11,3 +11,10 @@
 In this repository I've answered all the questions on the Jupiter Notebook as well as including all the packages required to execute this project.
 
 I used MYSQL Workbench to create the ER diagram.
+
+# The Data used:
+1). Receipts Data Schema
+
+2). Users Data Schema
+
+3). Brand Data Schema
