@@ -9,5 +9,5 @@
 4). Write a short email or Slack message to the business stakeholder
 
 In this repository I've answered all the questions on the Jupiter Notebook as well as including all the packages required to execute this project.
-# First: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
-Used MYSQL Workbench to create the ER diagram.
+
+I used MYSQL Workbench to create the ER diagram.
