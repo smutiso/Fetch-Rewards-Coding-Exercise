@@ -1,0 +1,16 @@
+Greetings all,
+My name is Sharon and for couple of days I have being working with Fetch Rewards dataset, in particular the receipts, users 
+and brands datasets and would wish to share with you report of my findings and possible issues raised on the same.
+first and foremost, please allow me give you a little bit background of how approached this datasets. since the data was in zipped json files I used  python to read, clean 
+and structure the data to a more user friendly format. Then ran some sanity checks for quality and 
+had a few comments and questions:
+
+1. In the users table, the used ID should be unique but I noticed that for the same user, last login time and created time there were multiple records. This can lead to data integrity issues.
+2. There was a lot of receipts in the dataset with a brand codes but the codes are missing in the brands table, this can lead to potential bias and inaccuracy while performing the analysis.
+3. I spent most of the time on data cleaning and wrangling, such as the date, the dictionaries. A better way to record the data that might reduce the margin of error should be implemented Or, is there a reason behind the data being stored in embedded dictionaries (such as date scanned)? I would love to know if this is required in some way in the product implementation.
+4. I noticed that the 'brandCodes' are not numerical and my recommendation would be to have the foreign keys numerical to prevent small differences in the string creating problems when joining the data. 
+
+Please feel free to schedule a time with me to discuss these points further and elaborate on these observation. 
+
+Thank you,
+Sharon
